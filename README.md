@@ -7,7 +7,7 @@
 We identify references between projects on the Github platform based on  **three steps**. Each step corresponds to a **script file**.
 
 
-## Step1: Link extraction
+## Step1: Extract links
 
 **[Scripts/extract_links.py](https://github.com/IREL-OSS/SCP2022/blob/main/Scripts/extract_links.py)** contains the script to extract the links in descriptions and comments on issues, pull requests, and commits using patterns URL, Num, and SHA.
 

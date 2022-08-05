@@ -22,7 +22,7 @@ We identify references between projects on the Github platform based on  **three
 
 **[Scripts/identify_redirected_projects.py](https://github.com/IREL-OSS/SCP2022/blob/main/Scripts/identify_redirected_projects.py)** contains the script to identify the change of project names.
 
-First, we build a project list based on the set of projects provided in the dataset. Then, we obtain the project’s current name by crawling the website information using the project’s original name. Next, we compare the project’s current name and original name to determine whether the project’s name changes. We replace the original project name with a new project name when the project’s name changes. Finally, we determine whether the reference’s source project and target project are the same. If they are the same, the reference is a within-project reference, and thus we filter out this reference.
+We build a project list based on the set of projects provided in GHTorrent and filter out the projects which are fork of other projects. For each project in the project list, we obtain the project’s current name by crawling the website information using the project’s original name. Next, we compare the project’s current name and original name to determine whether the project’s name changes. We replace the original project name with new project name when the project’s name changes. Finally, we determine whether the reference’s source project and target project are the same. If they are the same, the reference is a within-project reference, and thus we filter out this reference.
 
 ## Step3: Filter references
 

@@ -1,6 +1,6 @@
 # README
 
-**This repository contains the data and scripts for the paper "A method for identifying references between projects in GitHub".**
+**This repository contains the scripts for the paper "A method for identifying references between projects in GitHub".**
 
 ## Scripts
 
